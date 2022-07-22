@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(143, 140, 234);
+}
+.wrapper{
+    text-align: center;
+    background-color: rgba(247, 245, 249, 0.781);
+}
+
+table{
+    width: 80%;
+    margin: 40px auto;
+    background: rgba(53, 34, 230, 0.521);
+    
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid rgb(255, 255, 255);
+    text-align: left;
+    padding: 5px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(156, 156, 234);
+}
+
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: #5c3961;
+}
+
+input[type="reset"]:hover{
+    background: #5c3961;
+}
+
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#5c3961;
+}
+
+p{
+    text-align: center;
+}
